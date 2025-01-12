@@ -28,14 +28,14 @@ The inverted walker uses a **crankshaft mechanism** powered by two single-shaft 
 
 
 ## Components -
-1. *Fabrication Components*
+1. <ins>*Fabrication Components*</ins>
   - Acrylic Sheets
   - Duct tape
   - Heat shrink sleeves
   - Rubber for an increased grip to the wire
   - Cyanoacrylate or an alternative adhesive
     
-2. *Electrical Components*
+2. <ins>*Electrical Components*</ins>
   - BO Single axel motor
   - Micro-Breadbord
   - Li-Po Battery

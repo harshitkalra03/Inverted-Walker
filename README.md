@@ -1,6 +1,8 @@
 # Inverted-Walker
 The inverted walker uses a **crankshaft mechanism** powered by two single-shaft BO motors, supported by circuit design, programming, 3D mechanical design and documentation.
 
+![image alt](https://github.com/harshitkalra03/Inverted-Walker/blob/f6aedaf32aba262bfa774577ba54799a4aca6c15/Prototype_Image.png)
+
 ## Timeline - 
 1. **Day 1:**
 - Given the short time of two days, we needed to complete the making of the CAD model of our inverted walker and get it laser cut from cast acrylic within 24 hours.

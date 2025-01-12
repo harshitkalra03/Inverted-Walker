@@ -46,7 +46,7 @@ The inverted walker uses a **crankshaft mechanism** powered by two single-shaft 
   - CO2 laser cutter
   - Drills along with appropriate drill bits
 
-## Possible Applications  
+## Possible Applications -
   - The actual implementation of an abrasive blaster as well as a spray paint system for the application of the anti-corrosive layer.
   - An induction charger is used to change the electric fields of the high-tension wires to power the walker.
 

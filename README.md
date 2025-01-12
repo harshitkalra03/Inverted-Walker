@@ -59,4 +59,6 @@ The decrease in cost and increase in efficiency of the power lines will lead to 
 ## Points to improve upon - 
 Throught the process, we noticed a few points that we could learn from.
 - The use of a slotting type mating system for the strong sticking of the acrylic pieces to each other. Since, we cannot make use of screws(or it is trickey to do so), we can use slots in each piece that fit into a corrosponding hole in the corrosponding piece which ensures a rigid joint. This could eliminate our use of duct tape making the overall design cleaner.
-- The use of proper simulation tools can help us make sure that the motion is appropriate as well as optamise it. 
+- The use of proper simulation tools can help us make sure that the motion is appropriate as well as optimize it.
+- Proper testing at each stage after each and every sub-assembly was nescissary to ensure that each part worked indipendantly at least. This also helps us in pinpointing where any issues may arise.
+- The process of running ideas through other teammembers is also crucial to ensure that no point has been overlooked. Similarly it is important to listen to the ideas of other teamembers to try and find any flaw in logic or design. It is extreamly important to not disregard any idea/suggestion if there are no strong counter arguments. 

@@ -21,7 +21,11 @@ The inverted walker uses a **crankshaft mechanism** powered by two single-shaft 
 - Night turned to day where we continued to work on the inverted walker. Now we worked mainly on the weight reduction of the bot by the removal of redundant material using a heated blade which a long but nescissary.
 - We also worked on the weight balancing of the bot and the alignment of the arms. We found the optimal position of the motors and fixed them onto the battery cover. We also worked on the circutry of the system which considering our other challanges was rather easy. 
 
+
+
 ---
+
+
 
 ## Components -
 1. *Fabrication Components*

@@ -13,13 +13,13 @@ The inverted walker uses a **crankshaft mechanism** powered by two single-shaft 
 - The next day, we got it laser cut and moved in the assembly stage. This is the stage where we found the most problems which we had to deal with on the spot. The first of which was the anchoring each piece with another. We went with the intention of drilling and screwing each 90 degrees.
 - We then realised that the acrylic sheets would be too brittle to facilitate this method. This lead us to use some less than ideal adhesives that were available at the time for the fixing of the pieces together.
 - Another problem was the absence of appropriate bolts in our area (for the fixing of the moving joints) which lead to some major setbacks in our timeline while we searched for appropriate solutions.
-- Eventually, we were able to find just enough screws and also figured out a way to use less screws. But thats not all, we still encountered other problems like the immobility of some of the joints which lead us to create some makeshift elongated washers using heat sinks. We also tried different configurations of the mechanical system including one using an arduino to control the motors individally.
+- Eventually, we were able to find just enough screws and also figured out a way to use less screws. But that's not all, we still encountered other problems like the immobility of some of the joints which lead us to create some makeshift elongated washers using heat sinks. We also tried different configurations of the mechanical system including one using an arduino to control the motors individually.
 
 ![image alt](https://github.com/harshitkalra03/Inverted-Walker/blob/f27dff1513900a4bfc01c48158f7fdf746902a9a/Laser_Cut_Parts.jpeg)
 
 3. **Day 3:**
-- Night turned to day where we continued to work on the inverted walker. Now we worked mainly on the weight reduction of the bot by the removal of redundant material using a heated blade which a long but nescissary.
-- We also worked on the weight balancing of the bot and the alignment of the arms. We found the optimal position of the motors and fixed them onto the battery cover. We also worked on the circutry of the system which considering our other challanges was rather easy. 
+- Night turned to day where we continued to work on the inverted walker. Now we worked mainly on the weight reduction of the bot by the removal of redundant material using a heated blade which a long but necessary.
+- We also worked on the weight balancing of the bot and the alignment of the arms. We found the optimal position of the motors and fixed them onto the battery cover. We also worked on the circuitry of the system which considering our other challenges was rather easy. 
 
 
 
@@ -29,18 +29,25 @@ The inverted walker uses a **crankshaft mechanism** powered by two single-shaft 
 
 ## Components -
 1. <ins>Fabrication Components</ins>
-  - Acrylic Sheets
+  - Acrylic Sheets (30☓30☓4.5 mm)
   - Duct tape
   - Heat shrink sleeves
-  - Rubber for an increased grip to the wire
+  - Rubber Pads for an increased grip to the wire
   - Cyanoacrylate or an alternative adhesive
+  - Sand Paper
     
 2. <ins>Electrical Components</ins>
   - BO Single axel motor
-  - Micro-Breadbord
-  - Li-Po Battery
-  - Nuts and bolts
+  - Micro-Breadboard
+  - Li-Po Battery (1300 mah)
+  - Nuts and bolts (3mm)
   - Male to male wires
+  - Connectors
+  - Two way switch
+
+3. <ins>Softwares Used</ins>
+  - SolidWorks
+  - Cirkit Designer
 
 ## Machinery - 
   - CO2 laser cutter
@@ -52,13 +59,25 @@ The inverted walker uses a **crankshaft mechanism** powered by two single-shaft 
   - The actual implementation of an abrasive blaster as well as a spray paint system for the application of the anti-corrosive layer.
   - An induction charger is used to change the electric fields of the high-tension wires to power the walker.
 
-## We had a discussion into the possable impacts of our technology in certain areas -
+## We had a discussion into the possible impacts of our technology in certain areas -
 The decrease in cost and increase in efficiency of the power lines will lead to a decrease in consumer rates, more significant investments in other infrastructure, and an increase in the profits of the power supply company. This also increases the safety of the workers who might have to interact with these high-voltage wires for maintenance. It can also reduce the waste produced by the corroded wires, making it more environmentally sustainable. Similar designs can also be used for the easy and safe inspection of steel cables in bridges with the help of ultrasonic modules, vibration measurements, etc. Another niche application of this technology is the maintenance of zipline cables through cleaning, applying anti-corrosive layers, and safely removing dust, snow, and other debris.
 
 
-## Points to improve upon - 
-Throught the process, we noticed a few points that we could learn from.
-- The use of a slotting type mating system for the strong sticking of the acrylic pieces to each other. Since, we cannot make use of screws(or it is trickey to do so), we can use slots in each piece that fit into a corrosponding hole in the corrosponding piece which ensures a rigid joint. This could eliminate our use of duct tape making the overall design cleaner.
-- The use of proper simulation tools can help us make sure that the motion is appropriate as well as optimize it.
-- Proper testing at each stage after each and every sub-assembly was nescissary to ensure that each part worked indipendantly at least. This also helps us in pinpointing where any issues may arise.
-- The process of running ideas through other teammembers is also crucial to ensure that no point has been overlooked. Similarly it is important to listen to the ideas of other teamembers to try and find any flaw in logic or design. It is extreamly important to not disregard any idea/suggestion if there are no strong counter arguments. 
+## Errors and Faults Experienced -
+Throughout the process, we noticed a few points that we could learn from.
+1. <ins>Construction & Designing Faults</ins>
+- During designing use of **simulation tools** so as to visualise the movement of robot and analysis of its stability was not taken into account due to which we failed to have a smooth execution.
+- The weight of the robot is an important factor, which was slightly ignored by us while designing the body of the robot. We could cut out the ***empty spaces*** from the acrylic sheets to reduce weight.
+
+  
+2. <ins>Execution Faults</ins>
+- Due to limited time constraint, we were not able to conduct proper test runs to deeply analyse the performance, speed and stability of robot during runtime.
+- The most crucial issue we faced is with the synchronisation of the BO Motors so as avoid collision between the two hands. This majorly appeared due to a slight change of design during fabrication.
+
+---
+
+## Points to Improve upon - 
+- The use of a ***slotting type*** mating system for the strong sticking of the acrylic pieces to each other. Since, we cannot make use of screws (or it is tricky to do so) due to less thickness of the acrylic sheets used (4.5mm), we can use slots in each piece that fit into a corresponding hole in the corresponding piece which ensures a rigid joint. This could eliminate our use of duct tape making the overall design cleaner.
+- Currently the entire mechanism of movement of the robot is based on the structure and design of the robot, which could be improved by defining a **electronics based control system** so as to create a sync between the mechanics and electronics. This would be deeply help in the ***self synchronisation*** of the motors especially in case where one fails to set the initial phase difference between the motors manually or it disrupts due to unexpected runtime faults.
+- Due to constrained rules and guidlines of the competition for which we prepared the robot we were forbidden to add a ***roller based mechanism*** for enhancing speed and stability. This could be enhanced by using high RPM BO motors. Also, the current backward supporting mechanism is ***slider based mechanism*** which could be replaced by placing **rollers**.
+- For enhancing speed we could use gears and for increasing torque we could use extension shaft for motors. This would deeply help applications with heavy payloads.

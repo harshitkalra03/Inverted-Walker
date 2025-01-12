@@ -50,5 +50,5 @@ The inverted walker uses a **crankshaft mechanism** powered by two single-shaft 
   - The actual implementation of an abrasive blaster as well as a spray paint system for the application of the anti-corrosive layer.
   - An induction charger is used to change the electric fields of the high-tension wires to power the walker.
 
-##We had a discussion into the possable impacts of our technology in certain areas -
+## We had a discussion into the possable impacts of our technology in certain areas -
 The decrease in cost and increase in efficiency of the power lines will lead to a decrease in consumer rates, more significant investments in other infrastructure, and an increase in the profits of the power supply company. This also increases the safety of the workers who might have to interact with these high-voltage wires for maintenance. It can also reduce the waste produced by the corroded wires, making it more environmentally sustainable. Similar designs can also be used for the easy and safe inspection of steel cables in bridges with the help of ultrasonic modules, vibration measurements, etc. Another niche application of this technology is the maintenance of zipline cables through cleaning, applying anti-corrosive layers, and safely removing dust, snow, and other debris.

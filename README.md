@@ -79,5 +79,8 @@ Throughout the process, we noticed a few points that we could learn from.
 ## Points to Improve upon - 
 - The use of a ***slotting type*** mating system for the strong sticking of the acrylic pieces to each other. Since, we cannot make use of screws (or it is tricky to do so) due to less thickness of the acrylic sheets used (4.5mm), we can use slots in each piece that fit into a corresponding hole in the corresponding piece which ensures a rigid joint. This could eliminate our use of duct tape making the overall design cleaner.
 - Currently the entire mechanism of movement of the robot is based on the structure and design of the robot, which could be improved by defining a **electronics based control system** so as to create a sync between the mechanics and electronics. This would be deeply help in the ***self synchronisation*** of the motors especially in case where one fails to set the initial phase difference between the motors manually or it disrupts due to unexpected runtime faults.
+
+![image alt](https://github.com/harshitkalra03/Inverted-Walker/blob/580f37b012421c8fcf8fd30668e0292d926a1ff4/Circuit%20Design%20of%20the%20inverted%20Walker.jpg)
+
 - Due to constrained rules and guidlines of the competition for which we prepared the robot we were forbidden to add a ***roller based mechanism*** for enhancing speed and stability. This could be enhanced by using high RPM BO motors. Also, the current backward supporting mechanism is ***slider based mechanism*** which could be replaced by placing **rollers**.
 - For enhancing speed we could use gears and for increasing torque we could use extension shaft for motors. This would deeply help applications with heavy payloads.

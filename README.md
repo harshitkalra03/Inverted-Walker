@@ -15,7 +15,7 @@ The inverted walker uses a **crankshaft mechanism** powered by two single-shaft 
 - Another problem was the absence of appropriate bolts in our area (for the fixing of the moving joints) which lead to some major setbacks in our timeline while we searched for appropriate solutions.
 - Eventually, we were able to find just enough screws and also figured out a way to use less screws. But thats not all, we still encountered other problems like the immobility of some of the joints which lead us to create some makeshift elongated washers using heat sinks.
 
-![image alt]([https://github.com/harshitkalra03/Inverted-Walker/blob/f6aedaf32aba262bfa774577ba54799a4aca6c15/Prototype_Image.png](https://github.com/harshitkalra03/Inverted-Walker/blob/30105505306dd9654c631fe7a464307e79f98ace/Laser_Cut_Parts.jpeg))
+![image alt](https://github.com/harshitkalra03/Inverted-Walker/blob/f27dff1513900a4bfc01c48158f7fdf746902a9a/Laser_Cut_Parts.jpeg)
 
 3. **Day 3:**
 - The night of day 2 turned into the morning of day 3 where e continued to work on the inverted walker. Now we worked mainly on the weight reduction of the bot by the removal of redundant material using a heated blade which a long but nescissary.
